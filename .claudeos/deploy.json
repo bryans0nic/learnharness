@@ -1,0 +1,12 @@
+{
+  "name": "learnharness",
+  "platform": "pi",
+  "port": 9792,
+  "mode": "dev",
+  "listen": "tailnet",
+  "dev": "npm run dev -- -H 127.0.0.1 -p 9792",
+  "start": "npm start -- -H 127.0.0.1 -p 9792",
+  "build": "npm run build",
+  "migrate": "",
+  "health": "/"
+}
